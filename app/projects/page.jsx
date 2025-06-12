@@ -6,6 +6,7 @@ import anime from 'animejs';
 import { SiRacket } from "react-icons/si";;
 import { MdFeedback } from 'react-icons/md';
 import { FaUserGraduate } from "react-icons/fa";
+import { IoTennisball } from "react-icons/io5";
 
 export default function ProjectsPage() {
   const cardsRef = useRef([]);
@@ -28,7 +29,7 @@ export default function ProjectsPage() {
           Projects.
         </h1>
         <p className="pb-8 text-lg sm:text-2xl md:text-3xl text-white font-semibold">
-          Here are a few side projects I’ve been working on to improve my coding skills.
+          Here are a few side projects I have been working on to improve my coding skills.
         </p>
 
         <section>
@@ -45,7 +46,13 @@ export default function ProjectsPage() {
               icon: <SiRacket size={50} className="text-green-500" />,
               title: 'ProGenPadel',
               description: 'Designed and developed an interactive platform with dynamic back-end and front-end for seamless booking and registration. still under development'
-            }, {
+            }, 
+              {
+              href: 'https://leachcoach09.vercel.app/',
+              icon: < IoTennisball size={50} className="text-green-500" />,
+              title: 'AthleteCoach Profile',
+              description: 'Designed and developed an interactive platform for a coach and player and seamless booking and registration '
+            },{
               href: 'https://feedbackcardanalyserke.netlify.app/',
               icon: <MdFeedback size={50} className="text-green-500" />,
               title: 'FeedbackCardAnalyser',
