@@ -42,7 +42,7 @@ export default function ProjectsPage() {
               description: 'Designed and developed an interactive platform for my portfolio and projects tracking'
             },
               {
-              href: 'https://hybridsportske2.',
+              href: 'https://hybridsportske2.com.',
               icon: <SiRacket size={50} className="text-green-500" />,
               title: 'ProGenPadel',
               description: 'Designed and developed an interactive platform with dynamic back-end and front-end for seamless booking and registration. still under development'
